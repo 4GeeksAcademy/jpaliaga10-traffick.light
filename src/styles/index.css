@@ -10,3 +10,42 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container {
+    margin-top: 30px;
+}
+.traffic-light {
+ background: black;
+ width: 200px;
+ margin: auto;
+ padding: 10px; 
+ gap: 10px;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+.palo {
+    width: 40px;
+    background-color: black;
+    height: 100px;
+    margin: auto;
+}
+
+.light {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(162, 89, 89);
+}
+.red {
+    background: red;
+}
+.yellow {
+    background: yellow;
+}
+.green {
+    background: green;
+}
+.glow {
+    box-shadow: 0px 0px 15px 8px #25d74c;
+}
